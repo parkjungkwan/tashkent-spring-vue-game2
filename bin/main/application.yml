@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update 
+  datasource:
+    url: jdbc:mariadb://demo.cqlznyk14le0.ap-northeast-2.rds.amazonaws.com/demodb
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: demo
+    password: demonstration
+  
+     
+
